@@ -1,0 +1,85 @@
+dir /sys 0775 0 0
+file /sys/stgloc /home/moment/cl14-os/initramfs/sys/stgloc 0664 0 0
+dir /tmp 0775 0 0
+file /tmp/s3c-keypad-rev0030.kcm.bin /home/moment/cl14-os/initramfs/tmp/s3c-keypad-rev0030.kcm.bin 0666 0 0
+file /tmp/s3c-keypad-rev0020.kcm.bin /home/moment/cl14-os/initramfs/tmp/s3c-keypad-rev0020.kcm.bin 0666 0 0
+file /tmp/s3c-keypad-rev0040.kl /home/moment/cl14-os/initramfs/tmp/s3c-keypad-rev0040.kl 0664 0 0
+file /tmp/s3c-keypad-rev0040.kcm.bin /home/moment/cl14-os/initramfs/tmp/s3c-keypad-rev0040.kcm.bin 0666 0 0
+file /tmp/s3c-keypad-rev001a.kcm.bin /home/moment/cl14-os/initramfs/tmp/s3c-keypad-rev001a.kcm.bin 0666 0 0
+file /tmp/s3c-keypad-rev0000.kcm.bin /home/moment/cl14-os/initramfs/tmp/s3c-keypad-rev0000.kcm.bin 0666 0 0
+file /tmp/sec_headset.kl /home/moment/cl14-os/initramfs/tmp/sec_headset.kl 0775 0 0
+file /tmp/melfas_ts_input.kcm.bin /home/moment/cl14-os/initramfs/tmp/melfas_ts_input.kcm.bin 0666 0 0
+file /tmp/s3c-keypad-rev001a.kl /home/moment/cl14-os/initramfs/tmp/s3c-keypad-rev001a.kl 0664 0 0
+file /tmp/s3c-keypad-rev0020.kl /home/moment/cl14-os/initramfs/tmp/s3c-keypad-rev0020.kl 0664 0 0
+file /tmp/s3c-keypad-rev0000.kl /home/moment/cl14-os/initramfs/tmp/s3c-keypad-rev0000.kl 0664 0 0
+file /tmp/s3c-keypad-rev0010.kl /home/moment/cl14-os/initramfs/tmp/s3c-keypad-rev0010.kl 0664 0 0
+file /tmp/s3c-keypad-rev0030.kl /home/moment/cl14-os/initramfs/tmp/s3c-keypad-rev0030.kl 0664 0 0
+dir /tmp/bootchart 0775 0 0
+file /tmp/bootchart/stgloc /home/moment/cl14-os/initramfs/tmp/bootchart/stgloc 0664 0 0
+file /tmp/s3c-keypad-rev0010.kcm.bin /home/moment/cl14-os/initramfs/tmp/s3c-keypad-rev0010.kcm.bin 0666 0 0
+file /init.rc /home/moment/cl14-os/initramfs/init.rc 0664 0 0
+slink /etc system/etc 0777 0 0
+dir /bin 0775 0 0
+dir /lib 0775 0 0
+dir /lib/modules 0775 0 0
+file /lib/modules/s3c_g2d_driver.ko /home/moment/cl14-os/initramfs/lib/modules/s3c_g2d_driver.ko 0664 0 0
+file /lib/modules/dpram.ko /home/moment/cl14-os/initramfs/lib/modules/dpram.ko 0664 0 0
+file /lib/modules/s3c_cmm.ko /home/moment/cl14-os/initramfs/lib/modules/s3c_cmm.ko 0664 0 0
+file /lib/modules/s3c_g3d.ko /home/moment/cl14-os/initramfs/lib/modules/s3c_g3d.ko 0664 0 0
+file /lib/modules/s3c_pp.ko /home/moment/cl14-os/initramfs/lib/modules/s3c_pp.ko 0664 0 0
+file /lib/modules/s3c_camera.ko /home/moment/cl14-os/initramfs/lib/modules/s3c_camera.ko 0664 0 0
+file /lib/modules/s3c_rotator.ko /home/moment/cl14-os/initramfs/lib/modules/s3c_rotator.ko 0664 0 0
+file /lib/modules/s3c_jpeg.ko /home/moment/cl14-os/initramfs/lib/modules/s3c_jpeg.ko 0664 0 0
+file /lib/modules/s3c_mfc.ko /home/moment/cl14-os/initramfs/lib/modules/s3c_mfc.ko 0664 0 0
+file /lib/modules/btgpio.ko /home/moment/cl14-os/initramfs/lib/modules/btgpio.ko 0664 0 0
+file /lib/modules/vibrator.ko /home/moment/cl14-os/initramfs/lib/modules/vibrator.ko 0664 0 0
+file /lib/modules/xsr.ko /home/moment/cl14-os/initramfs/lib/modules/xsr.ko 0664 0 0
+file /lib/modules/stgloc /home/moment/cl14-os/initramfs/lib/modules/stgloc 0664 0 0
+file /lib/modules/rfs.ko /home/moment/cl14-os/initramfs/lib/modules/rfs.ko 0664 0 0
+file /lib/modules/param.ko /home/moment/cl14-os/initramfs/lib/modules/param.ko 0664 0 0
+file /lib/modules/xsr_stl.ko /home/moment/cl14-os/initramfs/lib/modules/xsr_stl.ko 0664 0 0
+file /lib/modules/xsr_debug.ko /home/moment/cl14-os/initramfs/lib/modules/xsr_debug.ko 0664 0 0
+file /lib/modules/dhd.ko /home/moment/cl14-os/initramfs/lib/modules/dhd.ko 0664 0 0
+file /lib/modules/multipdp.ko /home/moment/cl14-os/initramfs/lib/modules/multipdp.ko 0664 0 0
+dir /.info 0775 0 0
+file /.info/rootfs.info /home/moment/cl14-os/initramfs/.info/rootfs.info 0664 0 0
+dir /proc 0775 0 0
+file /proc/stgloc /home/moment/cl14-os/initramfs/proc/stgloc 0664 0 0
+slink /init sbin/init 0777 0 0
+file /init.SPH-M900.rc /home/moment/cl14-os/initramfs/init.SPH-M900.rc 0664 0 0
+dir /sbin 0775 0 0
+file /sbin/adbd /home/moment/cl14-os/initramfs/sbin/adbd 0775 0 0
+file /sbin/init /home/moment/cl14-os/initramfs/sbin/init 0775 0 0
+file /sbin/memps /home/moment/cl14-os/initramfs/sbin/memps 0775 0 0
+file /sbin/su /home/moment/cl14-os/initramfs/sbin/su 4775 0 0
+file /sbin/busybox /home/moment/cl14-os/initramfs/sbin/busybox 0775 0 0
+file /sbin/sdx.sh /home/moment/cl14-os/initramfs/sbin/sdx.sh 0775 0 0
+file /sbin/flash_image /home/moment/cl14-os/initramfs/sbin/flash_image 0775 0 0
+file /sbin/remount /home/moment/cl14-os/initramfs/sbin/remount 0775 0 0
+dir /sbin/images 0775 0 0
+file /sbin/images/icon.png /home/moment/cl14-os/initramfs/sbin/images/icon.png 0775 0 0
+dir /system 0775 0 0
+dir /system/etc 0775 0 0
+file /system/etc/ld.so.cache /home/moment/cl14-os/initramfs/system/etc/ld.so.cache 0644 0 0
+file /fota.rc /home/moment/cl14-os/initramfs/fota.rc 0664 0 0
+file /default.prop /home/moment/cl14-os/initramfs/default.prop 0664 0 0
+dir /dev 0775 0 0
+file /dev/stgloc /home/moment/cl14-os/initramfs/dev/stgloc 0664 0 0
+dir /res 0775 0 0
+dir /res/images 0775 0 0
+file /res/images/icon_error.png /home/moment/cl14-os/initramfs/res/images/icon_error.png 0664 0 0
+file /res/images/icon_firmware_error.png /home/moment/cl14-os/initramfs/res/images/icon_firmware_error.png 0664 0 0
+file /res/images/icon_firmware_install.png /home/moment/cl14-os/initramfs/res/images/icon_firmware_install.png 0664 0 0
+file /res/images/icon_installing.png /home/moment/cl14-os/initramfs/res/images/icon_installing.png 0664 0 0
+file /res/images/indeterminate1.png /home/moment/cl14-os/initramfs/res/images/indeterminate1.png 0664 0 0
+file /res/images/indeterminate2.png /home/moment/cl14-os/initramfs/res/images/indeterminate2.png 0664 0 0
+file /res/images/indeterminate3.png /home/moment/cl14-os/initramfs/res/images/indeterminate3.png 0664 0 0
+file /res/images/indeterminate4.png /home/moment/cl14-os/initramfs/res/images/indeterminate4.png 0664 0 0
+file /res/images/indeterminate5.png /home/moment/cl14-os/initramfs/res/images/indeterminate5.png 0664 0 0
+file /res/images/indeterminate6.png /home/moment/cl14-os/initramfs/res/images/indeterminate6.png 0664 0 0
+file /res/images/progress_bar_empty_left_round.png /home/moment/cl14-os/initramfs/res/images/progress_bar_empty_left_round.png 0664 0 0
+file /res/images/progress_bar_empty.png /home/moment/cl14-os/initramfs/res/images/progress_bar_empty.png 0664 0 0
+file /res/images/progress_bar_empty_right_round.png /home/moment/cl14-os/initramfs/res/images/progress_bar_empty_right_round.png 0664 0 0
+file /res/images/progress_bar_fill.png /home/moment/cl14-os/initramfs/res/images/progress_bar_fill.png 0664 0 0
+file /res/images/progress_bar_left_round.png /home/moment/cl14-os/initramfs/res/images/progress_bar_left_round.png 0664 0 0
+file /res/images/progress_bar_right_round.png /home/moment/cl14-os/initramfs/res/images/progress_bar_right_round.png 0664 0 0
